@@ -37,7 +37,7 @@ button {
   font-size: 20px;
   border: none;
   border-radius: 15px;
-  padding: 15px;
+  padding: 10px;
 }
 .button-acces {
   background-color: #7db96f;
@@ -53,4 +53,35 @@ button {
 
 p {
   margin: 0;
+}
+
+.presentation {
+  text-align: center;
+  margin: 0 65px;
+  font-family: 'quattrocento', serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.presentation strong {
+  font-weight: 700;
+}
+.presentation h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 35px 0 100px;
+}
+
+
+.fruits-container img{
+  width: 30px;
 }
