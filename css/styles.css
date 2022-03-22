@@ -122,6 +122,7 @@ article p {
   font-family: 'quattrocento', serif;
   font-weight: 400;
   font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 article a {
