@@ -66,11 +66,16 @@ p {
 .presentation strong {
   font-weight: 700;
 }
-.presentation h1 {
+
+h1 {
   font-family: 'Maven Pro', sans-serif;
   font-weight: 700;
-  font-size: 25px;
-  margin-top: 100px;
+  font-size: 26px;
+  margin: 0;
+}
+
+.presentation h1 {
+  margin: 100px 0 26px 0;
 }
 
 .fruits-container {
@@ -81,7 +86,83 @@ p {
   margin: 35px 0 100px;
 }
 
-
 .fruits-container img{
   width: 30px;
+}
+
+main {
+  background-color: #7db96f;
+}
+
+main h1 {
+  color: white;
+  padding: 40px 110px 20px;
+}
+
+article {
+  margin: 30px 40px;
+  box-shadow: 2px 2px 44px 9px rgba(0,0,0,0.1);
+  border-radius: 25px;
+  padding-left: 40px;
+}
+
+h3 {
+  margin: 0;
+}
+
+article h3 {
+  font-family: 'Sriracha', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  padding-top: 40px;
+}
+
+article p {
+  font-family: 'quattrocento', serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+article a {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-container .about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about img{
+  width: 160px;
+}
+
+.button-more {
+  display: flex;
+  align-self: flex-end;
+  padding-bottom: 30px;
+}
+
+.banana-box {
+  background-color: #fcf7d6;
+}
+
+.kiwi-box {
+  background-color: #d0f1ae;
+}
+
+.coffe-box {
+  background-color: #cdc4b0;
+}
+
+.strawberry-box {
+  background-color: #e2a2b1;
 }
