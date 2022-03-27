@@ -176,36 +176,48 @@ article a {
 }
 
 footer {
-  margin: 20px 65px;
+  padding: 30px 30px 15px;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .info-contact {
   color: #7db26e;
-  margin-left: 30px;
   padding: 25px 0 35px 0;
 }
 
 .all-contacts {
   background-color: #7db26e;
-  border-radius: 16px;
+  border-radius: 10px;
   margin: 5px;
+  box-shadow: 2px 2px 44px 9px rgba(0,0,0,0.1);
 }
 
 .another-contact {
   margin: 5px 50px;
-}
-.fruit-decoration {
-  width: 100px;
+  box-shadow: 2px 2px 44px 9px rgba(0,0,0,0.1);
 }
 
+
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+
+.certified {
+  font-family: 'Quattrocento', serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 30px 40px 20px;
+  text-align: center;
+  color:#7db26e;
+}
+
+footer .fruits-container {
+  padding: 0 20px;
+  margin: 30px 0px;
 }
