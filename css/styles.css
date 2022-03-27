@@ -13,6 +13,7 @@ header {
   text-align: center;
   border-top: 8px solid #7db26e;
   background-image: url(file:///Users/TomalaAlyssa/Sites/15-emojuice/15-emojuice-ressources/fruits%20divers.webp);
+  padding-bottom: 1px;
 }
 
 .header-content {
@@ -220,4 +221,40 @@ a {
 footer .fruits-container {
   padding: 0 20px;
   margin: 30px 0px;
+}
+
+.showcase-container {
+  background-color: #c9dba8;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.showcase-container h3{
+  font-family: 'Sriracha', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  padding: 30px 50px 0;
+
+}
+
+.showcase-container p {
+font-family: 'quattrocento', serif;
+font-weight: 400;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.5);
+padding: 0 50px;
+}
+
+.kiwi-presentation {
+  background-color: white;
+  margin: 40px 90px;
+  border-radius: 300px;
+  display: flex;
+  justify-items: center;
+  box-shadow: 2px 2px 44px 9px rgba(0,0,0,0.1);
+}
+
+.kiwi-presentation img {
+  width: 300px;
 }
