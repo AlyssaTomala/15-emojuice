@@ -19,10 +19,11 @@
     </div>
     <div class="button-container">
       <button class="button-acces">
-        <p>Accédez à nos produits</p>
+        <a href="#all-products"><p>Accédez à nos produits</p></a>
+        
       </button>
       <button class="button-contact">
-        <p>nous contacter</p>
+        <a href="#all-contacts"><p class="another-button">Nous contacter</p></a>
       </button>
     </div>
   </header>
@@ -44,7 +45,7 @@
   </div>
 
   <main>
-    <h1>Nos produits</h1>
+    <h1 id="all-products">Nos produits</h1>
     <div class="box-container">
       <article class="banana-box">
         <h3>Jus de Banane</h3>
@@ -59,7 +60,7 @@
         <h3>Sirop kiwi</h3>
         <p>En vert et contre tous.</p>
           <div class="about">
-            <a href="" class="button-more">en savoir plus</a>
+            <a href="kiwi.html" class="button-more">en savoir plus</a>
             <img src="15-emojuice-ressources/fruits/kiwi.svg" alt="kiwi">
           </div>
       </article>
@@ -75,15 +76,44 @@
 
       <article class="strawberry-box">
         <h3>Délice à la fraise</h3>
-        <p>La voilà qui ramène sa fraise.</p>
+        <p>La voilà qui ramène sa  fraise.</p>
           <div class="about">
             <a href="" class="button-more">en savoir plus</a>
             <img src="15-emojuice-ressources/fruits/fraise.svg" alt="fraise">
           </div>
       </article>
     </div>
-
   </main>
+  <footer>
+    <div class="footer-container">
+    <h1 class="info-contact" id="all-contacts">Nous contacter</h1>
+        <button class="all-contacts">
+          <a href="mailto:emojuice@veggies.ch" target="_blank">
+            <p>emojuice@veggies.ch</p>
+          </a>
+        </button>
+        <button class="all-contacts another-contact">
+          <a href="https://www.instagram.com/" target="_blank">
+            <p>Instagram</p>
+          </a>
+        </button>
+        <button class="all-contacts another-contact">
+          <a href="https://fr-fr.facebook.com/" target="_blank">
+            <p>Facebook</p>
+          </a>
+        </button>
+    </div>
+    <p>Emojuice est une marque déposée par Veggies 
+      inc. Switzerland.
+    </p>
+    <div class="fruits-container">
+      <img src="15-emojuice-ressources/fruits/banane.svg" alt="banane">
+      <img src="15-emojuice-ressources/fruits/kiwi.svg" alt="kiwi">
+      <img src="15-emojuice-ressources/fruits/pomme.svg" alt="pomme">
+      <img src="15-emojuice-ressources/fruits/ananas.svg" alt="ananas">
+  </div>
+
+  </footer>
   
 
 
