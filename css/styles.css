@@ -107,9 +107,11 @@ main h1 {
 }
 
 article {
-  margin: 30px 40px;
   box-shadow: 2px 2px 44px 9px rgba(0,0,0,0.1);
   border-radius: 25px;
+}
+.box {
+  margin: 30px 40px;
   padding-left: 40px;
 }
 
@@ -203,7 +205,6 @@ footer {
   box-shadow: 2px 2px 44px 9px rgba(0,0,0,0.1);
 }
 
-
 a {
   color: white;
   text-decoration: none;
@@ -295,3 +296,63 @@ h5 {
   font-size: 18px;
   margin: 30px 0 0;
 }
+
+nav {
+  background-color: #c9dba8;
+}
+
+.strawberry-article {
+  background-color: #dea0af;
+}
+
+.coffe-article {
+  background-color: #cbc3af;
+}
+
+nav h1 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.article-container h1 {
+  font-family: 'Sriracha';
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+}
+
+.article-container a {
+  text-decoration: none;
+  
+}
+
+.article-container p {
+  font-family: 'maven pro';
+  font-weight: 400;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.article-container img {
+  width: 100px;
+}
+
+.products-article-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.article-showcase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.acces {
+  margin: 68px;
+}
+
