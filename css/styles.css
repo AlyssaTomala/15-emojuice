@@ -258,3 +258,40 @@ padding: 0 50px;
 .kiwi-presentation img {
   width: 300px;
 }
+
+
+.kiwi-overall {
+  display: flex;
+  flex-direction: column;
+  padding: 68px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 0 0 38px;
+}
+
+.explanation,
+ul {
+  font-family: 'Quattrocento', serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.explanation {
+  padding: 30px 0;
+}
+
+ul {
+  padding: 15px;
+}
+
+h5 {
+  font-family: 'Quattrocento', serif;
+  font-weight: 700px;
+  font-size: 18px;
+  margin: 30px 0 0;
+}
