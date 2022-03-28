@@ -311,85 +311,74 @@ nav {
   background-color: #C4F2AD;
 }
 
-.strawberry-article {
-  background-color: #F7A4B4;
-}
-
-.strawberry-article h1 {
-  padding: 5px 20px 0 20px;
-  text-align: left;
-}
-
-.coffe-article h1 {
-  text-align: left;
-  padding: -10px;
-}
-
-.coffe-article {
-  background-color: #D3C6B2;
-  padding: 15px 15px 0 15px;
-}
-
-.coffe-article,
-.strawberry-article {
-  border-radius: 10px;
-}
-
 nav h1 {
   text-align: center;
 }
 
-.others-products {
+.title-products {
   padding: 30px;
 }
 
-.article-container h1 {
-  font-family: 'Sriracha';
+.product-strawberry  {
+  background-color: #F7A4B4;
+}
+
+.product-coffe {
+  background-color: #D3C6B2;
+  padding: 15px 15px 0 15px;
+}
+
+.article-title {
+  font-family: 'Sriracha', cursive;
   font-weight: 400;
   font-size: 20px;
-  color: black;
+  text-align: left;
 }
 
-.article-container a {
-  text-decoration: none;
-}
-
-.article-container p {
-  font-family: 'maven pro';
-  font-weight: 400;
-  font-size: 40px;
-  color: rgba(0, 0, 0, 0.5);
+.products-list-duo {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  padding: 14px;
   margin: 0 -10px;
 }
 
-.article-container img {
-  width: 100px;
+.products-list-duo .product {
+  padding: 15px;
+  margin: 10px;
 }
 
-.article-container {
+.product {
   display: flex;
-  margin: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.products-list-duo .product .showcase {
   width: 50%;
-  justify-content: center;
-  align-items: center;
 }
 
-.products-article-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin: 20px 30px;
+.product .more {
+  width: 50%;
+  text-align: left;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  text-decoration: none;
 }
 
-.article-showcase {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 10px;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-}
+
+
+
+
+
+
+
 
 .acces {
   margin: 68px;
