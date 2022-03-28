@@ -1,6 +1,9 @@
 /*/font quattrocento 400/700
 font Siracha 400
 font MAven pro 400 500 600 700 800/*/
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   width: 100%;
@@ -40,7 +43,7 @@ button {
   padding: 10px;
 }
 .button-acces {
-  background-color: #7db26e;
+  background-color: #57bb6b;
   color: white;
   margin: 0 65px 10px;
   border-radius: 10px;
@@ -48,7 +51,7 @@ button {
 
 .button-contact {
   background-color: white;
-  color: #7db26e;
+  color: #57bb6b;
   margin: 10px 105px 45px 105px;
   border-radius: 10px;
 }
@@ -58,7 +61,7 @@ p {
 }
 
 .another-button {
-  color:#7db26e;
+  color:#57bb6b;
   text-decoration: none;
 }
 
@@ -98,7 +101,7 @@ h1 {
 }
 
 main {
-  background-color: #7db26e;
+  background-color: #57bb6b;
 }
 
 main h1 {
@@ -163,19 +166,19 @@ article a {
 }
 
 .banana-box {
-  background-color: #fcf6d6;
+  background-color:#FFF8D7;
 }
 
 .kiwi-box {
-  background-color: #d0f1ae;
+  background-color: #C4F2AD;
 }
 
 .coffe-box {
-  background-color: #cdc4b0;
+  background-color: #D3C6B2;
 }
 
 .strawberry-box {
-  background-color: #e2a2b1;
+  background-color: #F7A4B4;
 }
 
 footer {
@@ -189,12 +192,12 @@ footer {
 }
 
 .info-contact {
-  color: #7db26e;
+  color: #57bb6b;
   padding: 25px 0 35px 0;
 }
 
 .all-contacts {
-  background-color: #7db26e;
+  background-color: #57bb6b;
   border-radius: 10px;
   margin: 5px;
   box-shadow: 2px 2px 44px 9px rgba(0,0,0,0.1);
@@ -216,7 +219,7 @@ a {
   font-size: 12px;
   padding: 30px 40px 20px;
   text-align: center;
-  color:#7db26e;
+  color:#57bb6b;
 }
 
 footer .fruits-container {
@@ -225,9 +228,13 @@ footer .fruits-container {
 }
 
 .showcase-container {
-  background-color: #c9dba8;
+  background-color: #C4F2AD;
   text-align: center;
   padding-bottom: 30px;
+}
+
+.vignette {
+  margin: 0 40px;
 }
 
 .showcase-container h3{
@@ -247,17 +254,20 @@ color: rgba(0, 0, 0, 0.5);
 padding: 0 50px;
 }
 
-.kiwi-presentation {
-  background-color: white;
-  margin: 40px 90px;
-  border-radius: 300px;
-  display: flex;
-  justify-items: center;
-  box-shadow: 2px 2px 44px 9px rgba(0,0,0,0.1);
+.round-vignette {
+  background: #ffffff;
+  border-radius: 50%;
+  margin: 40px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
 
-.kiwi-presentation img {
-  width: 300px;
+div {
+  display: block;
+}
+
+.round-vignette img {
+  width: 210px;
+  justify-content: center;
 }
 
 
@@ -298,20 +308,39 @@ h5 {
 }
 
 nav {
-  background-color: #c9dba8;
+  background-color: #C4F2AD;
 }
 
 .strawberry-article {
-  background-color: #dea0af;
+  background-color: #F7A4B4;
+}
+
+.strawberry-article h1 {
+  padding: 5px 20px 0 20px;
+  text-align: left;
+}
+
+.coffe-article h1 {
+  text-align: left;
+  padding: -10px;
 }
 
 .coffe-article {
-  background-color: #cbc3af;
+  background-color: #D3C6B2;
+  padding: 15px 15px 0 15px;
+}
+
+.coffe-article,
+.strawberry-article {
+  border-radius: 10px;
 }
 
 nav h1 {
   text-align: center;
-  padding: 30px 0;
+}
+
+.others-products {
+  padding: 30px;
 }
 
 .article-container h1 {
@@ -319,12 +348,10 @@ nav h1 {
   font-weight: 400;
   font-size: 20px;
   color: black;
-  padding: 10px;
 }
 
 .article-container a {
   text-decoration: none;
-  
 }
 
 .article-container p {
@@ -332,27 +359,41 @@ nav h1 {
   font-weight: 400;
   font-size: 40px;
   color: rgba(0, 0, 0, 0.5);
+  margin: 0 -10px;
 }
 
 .article-container img {
   width: 100px;
 }
 
+.article-container {
+  display: flex;
+  margin: 5px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
 .products-article-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  margin: 20px 30px;
 }
-
 
 .article-showcase {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px;
+  padding-left: 10px;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .acces {
   margin: 68px;
 }
+
+
 
